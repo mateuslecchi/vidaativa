@@ -147,8 +147,8 @@
 							leave:		function() { $(this).addClass('inactive'); }
 						});
 
-				// Contact.
-					$('#contact')
+				// contato.
+					$('#contato')
 						.scrollex({
 							top:		'50%',
 							delay:		50,
@@ -173,8 +173,8 @@
 					$('.main.style2')
 						.unscrollex();
 
-				// Contact.
-					$('#contact')
+				// contato.
+					$('#contato')
 						.unscrollex();
 
 			};

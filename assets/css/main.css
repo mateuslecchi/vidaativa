@@ -2270,9 +2270,9 @@ input, select, textarea {
 
 		}
 
-/* Intro */
+/* inicio */
 
-	#intro {
+	#inicio {
 		background: url("images/overlay.png"), url("../../images/one.png");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
@@ -2280,32 +2280,32 @@ input, select, textarea {
 		background-repeat: repeat, no-repeat;
 	}
 
-/* One */
+/* Seja */
 
-	#one {
+	#seja {
 		background: url("images/overlay.png"), url("../../images/intro.png");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
 
-/* Two */
+/* quemsomos */
 
-	#two {
+	#quemsomos {
 		background: url("images/overlay.png"), url("../../images/two.png");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
 
-/* Contact */
+/* contato */
 
-	#contact {
+	#contato {
 		overflow: hidden;
 		padding-bottom: 0;
 	}
 
-		#contact .box {
+		#contato .box {
 			-moz-transition: -moz-transform 1s ease;
 			-webkit-transition: -webkit-transform 1s ease;
 			-ms-transition: -ms-transform 1s ease;
@@ -2317,7 +2317,7 @@ input, select, textarea {
 			position: relative;
 		}
 
-		#contact.inactive .box {
+		#contato.inactive .box {
 			-moz-transform: translateY(100%);
 			-webkit-transform: translateY(100%);
 			-ms-transform: translateY(100%);
@@ -2326,7 +2326,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
-			#contact .box {
+			#contato .box {
 				padding: 1.5em 1.5em 2em 1.5em;
 			}
 
@@ -2334,7 +2334,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
-			#contact .box {
+			#contato .box {
 				padding: 1em 1em 2em 1em;
 			}
 
